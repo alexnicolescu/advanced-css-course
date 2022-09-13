@@ -1,0 +1,21 @@
+// Partial SCSS file that can be imported
+/* Universal selector used for global reset  */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /* used for inherinting box-sizing from body elements to child elements */
+}
+
+/* Root element */
+html {
+  // this defines what 1 rem is
+  /* font-size: 10px; bad practice */
+  /* font-size: 100%; usually this will result in 16px */
+  font-size: 62.5%; /*usually this will result in 10px*/
+}
+
+body {
+  box-sizing: border-box;
+}
