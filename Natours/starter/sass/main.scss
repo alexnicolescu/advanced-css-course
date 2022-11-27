@@ -9,6 +9,7 @@
 
 @import "components/button";
 
+@import "layout/grid";
 @import "layout/header";
 
 @import "pages/home";
@@ -97,6 +98,22 @@ The 7 folders:
 - themes;
 - abstracts;
 - vendors.
+
+Fluid layouts
+- Allow webpage to adapt to the curent viewport widht or height
+- Use %(vh or vw) instead of px for elements that should adapt to viewport(usally layout)
+- Use max-width instead of width
+Responsive units
+- Use rem intead of px
+Flexible images
+- Use % for dimensions, together with max-width property
+Media queries
+- To change CSS styles on certain viewport widths(called breakpoints)
+
+Layout types
+- Float layouts(old way)
+- Flexbox(modern way of layoing ot elements in a 1-dimensional row, perfect for component layouts)
+- CSS Grid(for 2-dimensional grid, perfect for page layouts and complex components)
 */
 
 /*
@@ -106,5 +123,3 @@ Light green: #7ed56f
 Medium green: #55c57a
 Dark green: #28b485
 */
-
-
